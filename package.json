@@ -59,7 +59,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "deploy": "gh-pages -d build -r https://github.com/the-nazim/PortFolio.git",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "browserslist": {
