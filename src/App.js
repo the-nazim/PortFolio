@@ -7,11 +7,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Toaster />
     </div>
   );
