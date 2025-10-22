@@ -116,12 +116,12 @@ const Home = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col items-center text-center space-y-8">
             <div className="space-y-4">
-              <div className="inline-block">
+              {/* <div className="inline-block">
                 <Badge variant="outline" className="border-emerald-500 text-emerald-500 px-4 py-1">
                   <Code className="h-3 w-3 mr-2 inline" />
                   Available for opportunities
                 </Badge>
-              </div>
+              </div> */}
               <h1 className="text-5xl md:text-7xl font-bold font-mono">
                 <span className="text-gray-400">$ whoami</span>
                 <br />

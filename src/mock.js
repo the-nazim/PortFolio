@@ -15,7 +15,7 @@ export const personalInfo = {
 export const about = {
   description: "Computer Science graduate specializing in Backend Development, DevOps, and Cybersecurity. Experienced in building secure RESTful APIs, implementing CI/CD pipelines, and managing cloud infrastructure. Strong focus on system reliability, security best practices, and performance optimization.",
   stats: [
-    { label: "Years Experience", value: "3+" },
+    { label: "Years Experience", value: "1+" },
     { label: "Projects Completed", value: "15+" },
     { label: "Technologies", value: "20+" },
     { label: "Uptime Achieved", value: "99%" }
@@ -25,6 +25,19 @@ export const about = {
 export const experience = [
   {
     id: 1,
+    title: "Freelance Developer",
+    company: "Self-Employed",
+    location: "Remote",
+    period: "Aug 2024 – Sep 2024",
+    type: "Freelance",
+    achievements: [
+      "Increased client inquiries by 40% by designing and hosting a business website using HTML, CSS, JavaScript, and PHP",
+      "Improved user engagement by 25% by developing responsive web pages and interactive customer request forms with PHP backend",
+      "Ensured 24/7 website availability by managing deployment and hosting on shared services with basic security practices"
+    ]
+  },
+  {
+    id: 2,
     title: "Junior Research Assistant Fellow",
     company: "Technology Innovation Hub (TiHAN) - IIT Hyderabad",
     location: "Hyderabad, IN",
@@ -35,19 +48,6 @@ export const experience = [
       "Reduced unauthorized access attempts by 95% by developing secure RESTful APIs using Django REST Framework with JWT-based granular access control mechanisms",
       "Achieved <100ms data exchange latency and 98% reliability between Raspberry Pi and NXP S32G by implementing optimized socket programming",
       "Reduced deployment time by 40% by automating pipelines with Jenkins integration, enabling real-time update checks and efficient delivery"
-    ]
-  },
-  {
-    id: 2,
-    title: "Freelance Developer",
-    company: "Self-Employed",
-    location: "Remote",
-    period: "Aug 2024 – Sep 2024",
-    type: "Freelance",
-    achievements: [
-      "Increased client inquiries by 40% by designing and hosting a business website using HTML, CSS, JavaScript, and PHP",
-      "Improved user engagement by 25% by developing responsive web pages and interactive customer request forms with PHP backend",
-      "Ensured 24/7 website availability by managing deployment and hosting on shared services with basic security practices"
     ]
   },
   {
